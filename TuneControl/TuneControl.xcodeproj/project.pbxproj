@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A584FC018BA923C005B4878 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A584FBF18BA923C005B4878 /* Cocoa.framework */; };
+		3A584FCA18BA923C005B4878 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FC818BA923C005B4878 /* InfoPlist.strings */; };
+		3A584FCC18BA923C005B4878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A584FCB18BA923C005B4878 /* main.m */; };
+		3A584FD018BA923C005B4878 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FCE18BA923C005B4878 /* Credits.rtf */; };
+		3A584FD318BA923C005B4878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A584FD218BA923C005B4878 /* AppDelegate.m */; };
+		3A584FD618BA923C005B4878 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FD418BA923C005B4878 /* MainMenu.xib */; };
+		3A584FD918BA923C005B4878 /* TuneControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A584FD718BA923C005B4878 /* TuneControl.xcdatamodeld */; };
+		3A584FDB18BA923C005B4878 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FDA18BA923C005B4878 /* Images.xcassets */; };
+		3A584FE218BA923C005B4878 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A584FE118BA923C005B4878 /* XCTest.framework */; };
+		3A584FE318BA923C005B4878 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A584FBF18BA923C005B4878 /* Cocoa.framework */; };
+		3A584FEB18BA923C005B4878 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FE918BA923C005B4878 /* InfoPlist.strings */; };
+		3A584FED18BA923C005B4878 /* TuneControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A584FEC18BA923C005B4878 /* TuneControlTests.m */; };
+		3A584FFA18BA92D1005B4878 /* remoteControl.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FF618BA92D1005B4878 /* remoteControl.png */; };
+		3A584FFB18BA92D1005B4878 /* playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FF718BA92D1005B4878 /* playpause.scpt */; };
+		3A584FFC18BA92D1005B4878 /* PreviousTrack.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FF818BA92D1005B4878 /* PreviousTrack.scpt */; };
+		3A584FFD18BA92D1005B4878 /* PlayNextTrack.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 3A584FF918BA92D1005B4878 /* PlayNextTrack.scpt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A584FE418BA923C005B4878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A584FB418BA923C005B4878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A584FBB18BA923C005B4878;
+			remoteInfo = TuneControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A584FBC18BA923C005B4878 /* TuneControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A584FBF18BA923C005B4878 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3A584FC218BA923C005B4878 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3A584FC318BA923C005B4878 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A584FC418BA923C005B4878 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A584FC718BA923C005B4878 /* TuneControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuneControl-Info.plist"; sourceTree = "<group>"; };
+		3A584FC918BA923C005B4878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A584FCB18BA923C005B4878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A584FCD18BA923C005B4878 /* TuneControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuneControl-Prefix.pch"; sourceTree = "<group>"; };
+		3A584FCF18BA923C005B4878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3A584FD118BA923C005B4878 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A584FD218BA923C005B4878 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A584FD518BA923C005B4878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A584FD818BA923C005B4878 /* TuneControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TuneControl.xcdatamodel; sourceTree = "<group>"; };
+		3A584FDA18BA923C005B4878 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A584FE018BA923C005B4878 /* TuneControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A584FE118BA923C005B4878 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A584FE818BA923C005B4878 /* TuneControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuneControlTests-Info.plist"; sourceTree = "<group>"; };
+		3A584FEA18BA923C005B4878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A584FEC18BA923C005B4878 /* TuneControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuneControlTests.m; sourceTree = "<group>"; };
+		3A584FF618BA92D1005B4878 /* remoteControl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remoteControl.png; sourceTree = "<group>"; };
+		3A584FF718BA92D1005B4878 /* playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = playpause.scpt; sourceTree = "<group>"; };
+		3A584FF818BA92D1005B4878 /* PreviousTrack.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = PreviousTrack.scpt; sourceTree = "<group>"; };
+		3A584FF918BA92D1005B4878 /* PlayNextTrack.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayNextTrack.scpt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A584FB918BA923C005B4878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A584FC018BA923C005B4878 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A584FDD18BA923C005B4878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A584FE318BA923C005B4878 /* Cocoa.framework in Frameworks */,
+				3A584FE218BA923C005B4878 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A584FB318BA923C005B4878 = {
+			isa = PBXGroup;
+			children = (
+				3A584FC518BA923C005B4878 /* TuneControl */,
+				3A584FE618BA923C005B4878 /* TuneControlTests */,
+				3A584FBE18BA923C005B4878 /* Frameworks */,
+				3A584FBD18BA923C005B4878 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A584FBD18BA923C005B4878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A584FBC18BA923C005B4878 /* TuneControl.app */,
+				3A584FE018BA923C005B4878 /* TuneControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A584FBE18BA923C005B4878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A584FBF18BA923C005B4878 /* Cocoa.framework */,
+				3A584FE118BA923C005B4878 /* XCTest.framework */,
+				3A584FC118BA923C005B4878 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A584FC118BA923C005B4878 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A584FC218BA923C005B4878 /* AppKit.framework */,
+				3A584FC318BA923C005B4878 /* CoreData.framework */,
+				3A584FC418BA923C005B4878 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3A584FC518BA923C005B4878 /* TuneControl */ = {
+			isa = PBXGroup;
+			children = (
+				3A584FF618BA92D1005B4878 /* remoteControl.png */,
+				3A584FF718BA92D1005B4878 /* playpause.scpt */,
+				3A584FF818BA92D1005B4878 /* PreviousTrack.scpt */,
+				3A584FF918BA92D1005B4878 /* PlayNextTrack.scpt */,
+				3A584FD118BA923C005B4878 /* AppDelegate.h */,
+				3A584FD218BA923C005B4878 /* AppDelegate.m */,
+				3A584FD418BA923C005B4878 /* MainMenu.xib */,
+				3A584FDA18BA923C005B4878 /* Images.xcassets */,
+				3A584FD718BA923C005B4878 /* TuneControl.xcdatamodeld */,
+				3A584FC618BA923C005B4878 /* Supporting Files */,
+			);
+			path = TuneControl;
+			sourceTree = "<group>";
+		};
+		3A584FC618BA923C005B4878 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A584FC718BA923C005B4878 /* TuneControl-Info.plist */,
+				3A584FC818BA923C005B4878 /* InfoPlist.strings */,
+				3A584FCB18BA923C005B4878 /* main.m */,
+				3A584FCD18BA923C005B4878 /* TuneControl-Prefix.pch */,
+				3A584FCE18BA923C005B4878 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A584FE618BA923C005B4878 /* TuneControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A584FEC18BA923C005B4878 /* TuneControlTests.m */,
+				3A584FE718BA923C005B4878 /* Supporting Files */,
+			);
+			path = TuneControlTests;
+			sourceTree = "<group>";
+		};
+		3A584FE718BA923C005B4878 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A584FE818BA923C005B4878 /* TuneControlTests-Info.plist */,
+				3A584FE918BA923C005B4878 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A584FBB18BA923C005B4878 /* TuneControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A584FF018BA923C005B4878 /* Build configuration list for PBXNativeTarget "TuneControl" */;
+			buildPhases = (
+				3A584FB818BA923C005B4878 /* Sources */,
+				3A584FB918BA923C005B4878 /* Frameworks */,
+				3A584FBA18BA923C005B4878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuneControl;
+			productName = TuneControl;
+			productReference = 3A584FBC18BA923C005B4878 /* TuneControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A584FDF18BA923C005B4878 /* TuneControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A584FF318BA923C005B4878 /* Build configuration list for PBXNativeTarget "TuneControlTests" */;
+			buildPhases = (
+				3A584FDC18BA923C005B4878 /* Sources */,
+				3A584FDD18BA923C005B4878 /* Frameworks */,
+				3A584FDE18BA923C005B4878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A584FE518BA923C005B4878 /* PBXTargetDependency */,
+			);
+			name = TuneControlTests;
+			productName = TuneControlTests;
+			productReference = 3A584FE018BA923C005B4878 /* TuneControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A584FB418BA923C005B4878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rahul Datta";
+				TargetAttributes = {
+					3A584FDF18BA923C005B4878 = {
+						TestTargetID = 3A584FBB18BA923C005B4878;
+					};
+				};
+			};
+			buildConfigurationList = 3A584FB718BA923C005B4878 /* Build configuration list for PBXProject "TuneControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A584FB318BA923C005B4878;
+			productRefGroup = 3A584FBD18BA923C005B4878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A584FBB18BA923C005B4878 /* TuneControl */,
+				3A584FDF18BA923C005B4878 /* TuneControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A584FBA18BA923C005B4878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A584FCA18BA923C005B4878 /* InfoPlist.strings in Resources */,
+				3A584FDB18BA923C005B4878 /* Images.xcassets in Resources */,
+				3A584FFC18BA92D1005B4878 /* PreviousTrack.scpt in Resources */,
+				3A584FD018BA923C005B4878 /* Credits.rtf in Resources */,
+				3A584FFD18BA92D1005B4878 /* PlayNextTrack.scpt in Resources */,
+				3A584FD618BA923C005B4878 /* MainMenu.xib in Resources */,
+				3A584FFB18BA92D1005B4878 /* playpause.scpt in Resources */,
+				3A584FFA18BA92D1005B4878 /* remoteControl.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A584FDE18BA923C005B4878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A584FEB18BA923C005B4878 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A584FB818BA923C005B4878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A584FD318BA923C005B4878 /* AppDelegate.m in Sources */,
+				3A584FCC18BA923C005B4878 /* main.m in Sources */,
+				3A584FD918BA923C005B4878 /* TuneControl.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A584FDC18BA923C005B4878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A584FED18BA923C005B4878 /* TuneControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A584FE518BA923C005B4878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A584FBB18BA923C005B4878 /* TuneControl */;
+			targetProxy = 3A584FE418BA923C005B4878 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A584FC818BA923C005B4878 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A584FC918BA923C005B4878 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A584FCE18BA923C005B4878 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A584FCF18BA923C005B4878 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3A584FD418BA923C005B4878 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A584FD518BA923C005B4878 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3A584FE918BA923C005B4878 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A584FEA18BA923C005B4878 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A584FEE18BA923C005B4878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A584FEF18BA923C005B4878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A584FF118BA923C005B4878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuneControl/TuneControl-Prefix.pch";
+				INFOPLIST_FILE = "TuneControl/TuneControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A584FF218BA923C005B4878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuneControl/TuneControl-Prefix.pch";
+				INFOPLIST_FILE = "TuneControl/TuneControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A584FF418BA923C005B4878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TuneControl.app/Contents/MacOS/TuneControl";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuneControl/TuneControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TuneControlTests/TuneControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3A584FF518BA923C005B4878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TuneControl.app/Contents/MacOS/TuneControl";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuneControl/TuneControl-Prefix.pch";
+				INFOPLIST_FILE = "TuneControlTests/TuneControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A584FB718BA923C005B4878 /* Build configuration list for PBXProject "TuneControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A584FEE18BA923C005B4878 /* Debug */,
+				3A584FEF18BA923C005B4878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A584FF018BA923C005B4878 /* Build configuration list for PBXNativeTarget "TuneControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A584FF118BA923C005B4878 /* Debug */,
+				3A584FF218BA923C005B4878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A584FF318BA923C005B4878 /* Build configuration list for PBXNativeTarget "TuneControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A584FF418BA923C005B4878 /* Debug */,
+				3A584FF518BA923C005B4878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A584FD718BA923C005B4878 /* TuneControl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A584FD818BA923C005B4878 /* TuneControl.xcdatamodel */,
+			);
+			currentVersion = 3A584FD818BA923C005B4878 /* TuneControl.xcdatamodel */;
+			path = TuneControl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A584FB418BA923C005B4878 /* Project object */;
+}
