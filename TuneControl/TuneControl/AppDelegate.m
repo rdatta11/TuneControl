@@ -69,10 +69,12 @@ NSMenu *theMenu;
 }
 
 -(void)onHandlePrevious:(id) sender{
+	NSLog((@"You selected Previous"));
 	[self callScriptWithScriptName: @"PreviousTrack"];
 }
 
 -(void)onHandlePlayPause:(id) sender{
+	NSLog((@"You selected Play/Pause"));
 	[self callScriptWithScriptName: @"playpause"];
 }
 
